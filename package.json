@@ -4,7 +4,7 @@
   "description": "This is a webist for a popular dance academy",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"No test specified\""
   },
   "author": "saurabh kulkarni",
   "license": "ISC",
