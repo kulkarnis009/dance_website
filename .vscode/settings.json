@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c36fbda1-1667-428a-98ee-0768d1b53d1c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/myDanceWebapp1",
+    "appService.deploySubpath": "."
+}
