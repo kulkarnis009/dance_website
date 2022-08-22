@@ -2,7 +2,7 @@
   "name": "saurabh_dance_academy",
   "version": "1.0.0",
   "description": "This is a webist for a popular dance academy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"No test specified\""
   },
