@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Saurabh Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/1.jfif" height="50px" width="50px")
+                | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact us]
+
+    section#introSection
+        div Welcome to Saurabh's Dance Academy
+        div.small Eat Dance Sleep Repeat...
+    section#missionSection
+        h2 our mission
+        div.card
+            h3 Dance perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique odit eaque quidem! Minus totam quae cum quis. Voluptate explicabo impedit ipsam. Distinctio est veritatis, delectus ut quaerat molestias accusamus quisquam!
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique odit eaque quidem! Minus totam quae cum quis. Voluptate explicabo impedit ipsam. Distinctio est veritatis, delectus ut quaerat molestias accusamus quisquam!
+        div.card
+            h3 Expert teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique odit eaque quidem! Minus totam quae cum quis. Voluptate explicabo impedit ipsam. Distinctio est veritatis, delectus ut quaerat molestias accusamus quisquam!
+    section#sponsersSection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="/static/img/apple.png", alt="SponSer Image",Class="spImage")
+            img(src="/static/img/FB.jpg", alt="SponSer Image",Class="spImage")
+            img(src="/static/img/netflix.png", alt="SponSer Image",Class="spImage")
+            img(src="/static/img/twitter.png", alt="SponSer Image",Class="spImage")
+    footer#footer 
+        | Copyrght © 2022 SaurabhDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js
