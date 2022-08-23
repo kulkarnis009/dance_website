@@ -4,8 +4,10 @@ const app = express()
 const http = require('http')
 const mongoose = require('mongoose');
 // const bodyparser = require('body-parser')
+
 mongoose.connect(process.env.CUSTOMCONNSTR_myconnectionstring_1, {useNewUrlParser: true});
 // mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true});
+
 const port =  process.env.PORT || 8080
 
 // const app = http.createServer((req,res) =>{
