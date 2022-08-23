@@ -1,10 +1,16 @@
 const express = require("express")
 const path = require("path")
 const app = express()
+const http = require('http')
 // const mongoose = require('mongoose');
 // const bodyparser = require('body-parser')
 // mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true});
 const port = 80
+
+// const app = http.createServer((req,res) =>{
+//     res.writeHead(200, {"Content-Type": "text/plain"});
+//     res.end("it works");
+// })
 
 //define mongoose schema
 // const contactSchema = new mongoose.Schema({
