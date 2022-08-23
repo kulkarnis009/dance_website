@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'myDanceWebapp1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA10D2CED1C74D09AC465B07334FAFA5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_87CD1CE47D8246F0A9B0EA90F8D7B160 }}
           package: .
