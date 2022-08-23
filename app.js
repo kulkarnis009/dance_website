@@ -5,7 +5,7 @@ const http = require('http')
 // const mongoose = require('mongoose');
 // const bodyparser = require('body-parser')
 // mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true});
-const port = 80
+const port =  process.env.PORT || 80
 
 // const app = http.createServer((req,res) =>{
 //     res.writeHead(200, {"Content-Type": "text/plain"});
